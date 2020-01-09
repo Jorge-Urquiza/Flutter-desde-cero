@@ -1,5 +1,7 @@
-import 'package:components_fullter/src/home_temp.dart';
 import 'package:flutter/material.dart';
+import 'package:components_fullter/src/home.dart';
+import 'package:components_fullter/src/home_temp.dart';
+
 void main()=> runApp(MyApp());
 class MyApp extends StatelessWidget{
   @override
@@ -8,7 +10,7 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Componentes",
-      home:  HomePageTemp()
+      home:  HomePage()
     );
   }
 
